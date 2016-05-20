@@ -1,5 +1,4 @@
 var gulp = require("gulp");
-var watch = require('gulp-watch');
 var sass = require("gulp-sass");
 var plumber = require("gulp-plumber");
 var browserSync = require("browser-sync");
@@ -10,12 +9,12 @@ gulp.task('default', ['sass', 'browser-sync', 'pug', 'watch']);
 
 //sassとpugの監視をして変換処理させる
 gulp.task('watch', () => {
-    watch(['./sass/**'], () => {
+    gulp.watch(['./sass/**'], () => {
         gulp.start(['sass']);
     });
-    watch(['./pug/**'], () => {
+    gulp.watch(['./pug/**'], () => {
         gulp.start(['pug']);
-    })
+    });
 });
 
 //ブラウザ表示
@@ -56,6 +55,6 @@ gulp.task("pug", () => {
 });
 
 //ブラウザリロード処理
-gulp.task('reload', function () {
+gulp.task('reload', () => {
     browserSync.reload();
 });
