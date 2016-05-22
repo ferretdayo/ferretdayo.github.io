@@ -54,10 +54,10 @@ ul.nav-list{
 
 .parallax{
     height: 600px;
-    background-position: 50% 50% !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
-    background-size: cover !important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .content{
@@ -78,13 +78,13 @@ ul.nav-list{
 }
 
 .parallax-img1{
-    background: url(/img/mizu1.jpg);
+    background-image: url(/img/mizu1.jpg);
 }
 .parallax-img2{
-    background: url(/img/mizu2.jpg);
+    background-image: url(/img/mizu2.jpg);
 }
 .parallax-img3{
-    background: url(/img/mizu3.jpg);
+    background-image: url(/img/mizu3.jpg);
 }
 
 @media screen and (max-width: 960px){
