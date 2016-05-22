@@ -2,11 +2,37 @@ doctype html
 html(lang='ja')
     head
         meta(charset="utf-8")
-        title タイトル
-        link(href="/css/style.css", rel="stylesheet")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title ふぇれっと
+        link(href="css/normalize.css", rel="stylesheet")
+        link(href="css/style.css", rel="stylesheet")
     body
-        div#header
-        div#navigation
-        div#content
-            h1 helloWorld!
+        nav
+            ul.nav-list
+                li.nav-title: a(href="#") ミズゴロウのすみか
+                li.nav-content: a(href="#") CONTACT
+                li.nav-content: a(href="#") SKILLS
+                li.nav-content: a(href="#") ABOUT
+        div#parallax
+            div.parallax.parallax-img1
+                div.box
+                    h1 helloWorld!
+            div.content
+                div.box
+                    h2 hello
+            div.parallax.parallax-img2
+                div.box
+                    h1 helloWorld!
+            div.content
+                div.box
+                    h2 hello
+            div.parallax.parallax-img3
+                div.box
+                    h1 helloWorld!
+            div.content
+                div.box
+                    h2 hello
         div#footer
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+        script(scr="js/index.js")

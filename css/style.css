@@ -1,4 +1,75 @@
+@charset "UTF-8";
+* {
+  font-family: Helvetica, "游ゴシック"; }
+
+body {
+  background-color: azure; }
+
 h1 {
-  color: chartreuse; }
+  color: red; }
   h1:hover {
     color: royalblue; }
+
+nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  top: 0;
+  position: fixed; }
+
+ul.nav-list {
+  overflow: hidden;
+  background-color: aquamarine;
+  margin: 0; }
+  ul.nav-list li {
+    display: block; }
+    ul.nav-list li a {
+      display: block;
+      text-decoration: none;
+      color: darkorange;
+      font-size: 16px; }
+      ul.nav-list li a:hover {
+        background-color: aqua; }
+  ul.nav-list .nav-content {
+    float: right; }
+    ul.nav-list .nav-content a {
+      padding: 12px 20px; }
+  ul.nav-list .nav-title {
+    float: left; }
+    ul.nav-list .nav-title a {
+      padding: 8px 20px; }
+
+.parallax {
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.content {
+  padding: 30px 0; }
+
+.box {
+  max-width: 30px 0;
+  margin: 0 auto; }
+  .box h1 {
+    line-height: 600px;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+.parallax-img1 {
+  background: url(/img/mizu1.jpg); }
+
+.parallax-img2 {
+  background: url(/img/mizu2.jpg); }
+
+.parallax-img3 {
+  background: url(/img/mizu3.jpg); }
+
+@media screen and (max-width: 960px) {
+  .box {
+    width: auto; } }
