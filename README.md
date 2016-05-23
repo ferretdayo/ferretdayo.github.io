@@ -1,5 +1,3 @@
-![Build Status](https://travis-ci.org/ferretdayo/ferretdayo.github.io.svg?branch=master)
-
 # ferretdayo.github.io
 
 ## 環境
