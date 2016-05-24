@@ -16,8 +16,7 @@ nav {
   padding: 0;
   width: 100%;
   top: 0;
-  position: fixed;
-  z-index: 1; }
+  position: fixed; }
 
 ul.nav-list {
   overflow: hidden;
@@ -42,8 +41,10 @@ ul.nav-list {
       padding: 8px 20px; }
 
 .about {
-  z-index: 2;
-  height: 600px; }
+  height: 400px; }
+
+.contact {
+  height: 300px; }
 
 div#about {
   display: flex;
