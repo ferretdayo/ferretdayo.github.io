@@ -21,6 +21,7 @@ nav{
     width: 100%;
     top: 0;
     position: fixed;
+    z-index: 1;
 }
 
 ul.nav-list{
@@ -56,13 +57,22 @@ ul.nav-list{
 //ABOUT
 //プロフィール欄
 .about{
+    z-index: 2;
     height: 600px;
+}
+
+//ABOUTのContents
+div#about{
+    //中にあるdivタグを中央寄せ
+    display: flex;
+    justify-content: center;
 }
 //プロフィールの画像部分
 #about-img{
-    float: left;
-    padding: 20px;
+    margin: 0 40px;
     img{
+        display: block;
+        margin: 0 auto;
         border-radius: 100px;
         height: 200px;
         width: 200px;
@@ -74,9 +84,10 @@ ul.nav-list{
 }
 //プロフィールの内容
 #about-content{
-    float: left;
+    margin: 0 40px;
     .subtitle{
-        text-align: center;
+        margin: 25px 0 0 30px;
+        font-size: 19px;
     }
 }
 
