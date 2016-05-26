@@ -41,16 +41,20 @@ html(lang='ja')
                     h1 helloWorld!
             div.content
                 div.box
-                    h2 hello
+                    h2 Skills
             div.parallax.parallax-img3
                 div.box
                     h1 helloWorld!
             div.contact
                 div.box
                     h2 Contact
-                    object(type="image/svg+xml", data="/img/twitter_alt.svg")
-                    object(type="image/svg+xml", data="/img/github_alt.svg")
-                    
+                    div.contact-content
+                        div.link
+                            a.contact-link(href="https://twitter.com/terado_desu" target="_blank")
+                                img(src="/img/twitter_alt.svg")
+                        div.link
+                            a.contact-link(href="https://github.com/ferretdayo" target="_blank")
+                                img(src="/img/github_alt.svg")
         div#footer
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
         script(scr="js/index.js")

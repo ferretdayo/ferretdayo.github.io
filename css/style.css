@@ -72,6 +72,13 @@ div#about {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.contact-content {
+  display: flex;
+  justify-content: center; }
+
+.contact-link {
+  margin: 0 100px; }
+
 .parallax {
   height: 600px;
   background-position: 50% 50%;

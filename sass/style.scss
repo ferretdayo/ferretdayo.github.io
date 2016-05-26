@@ -97,6 +97,19 @@ div#about{
     background-size: cover;
 }
 
+//Contact
+.contact-content{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link{
+    margin: 0 100px;
+}
+
+.link{
+}
+
 .parallax{
     height: 600px;
     background-position: 50% 50%;
@@ -104,7 +117,6 @@ div#about{
     background-attachment: fixed;
     background-size: cover;
 }
-
 
 .box{
     max-width: 30px 0;
