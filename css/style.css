@@ -43,9 +43,6 @@ ul.nav-list {
 .about {
   height: 400px; }
 
-.contact {
-  height: 300px; }
-
 div#about {
   display: flex;
   justify-content: center; }
@@ -71,6 +68,44 @@ div#about {
 #mypic {
   background-repeat: no-repeat;
   background-size: cover; }
+
+.product {
+  height: 500px;
+  display: flex;
+  justify-content: center; }
+
+.product-content #poke {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-image: url("/img/poke.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.product-content #kakeibo {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-image: url("/img/kakeibo.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.product-content #bulletin {
+  width: 250px;
+  height: 200px;
+  background-image: url("/img/bulletin.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.product-content #question {
+  width: 250px;
+  height: 200px;
+  background-image: url("/img/question.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contact {
+  height: 300px; }
 
 .contact-content {
   display: flex;
@@ -109,6 +144,9 @@ div#about {
 
 .parallax-img3 {
   background-image: url(/img/mizu3.jpg); }
+
+.parallax-img4 {
+  background-image: url(/img/mizu4.jpg); }
 
 @media screen and (max-width: 960px) {
   .box {
