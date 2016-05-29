@@ -84,7 +84,7 @@ ul.nav-list {
 #product {
   height: 100vh; }
 
-#product-content #poke {
+#poke {
   display: block;
   width: 250px;
   height: 200px;
@@ -92,7 +92,7 @@ ul.nav-list {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#product-content #kakeibo {
+#kakeibo {
   display: block;
   width: 250px;
   height: 200px;
@@ -100,17 +100,24 @@ ul.nav-list {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#product-content #bulletin {
+#bulletin {
   width: 250px;
   height: 200px;
   background-image: url("/img/bulletin.png");
   background-repeat: no-repeat;
   background-size: cover; }
 
-#product-content #question {
+#question {
   width: 250px;
   height: 200px;
   background-image: url("/img/question.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#chat {
+  width: 250px;
+  height: 200px;
+  background-image: url("/img/chat.png");
   background-repeat: no-repeat;
   background-size: cover; }
 

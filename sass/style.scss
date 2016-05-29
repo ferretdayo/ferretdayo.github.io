@@ -113,36 +113,45 @@ ul.nav-list{
 }
 
 #product-content{
-    #poke{
-        display: block;
-        width: 250px;
-        height: 200px;
-        background-image: url("/img/poke.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #kakeibo{
-        display: block;
-        width: 250px;
-        height: 200px;
-        background-image: url("/img/kakeibo.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #bulletin{
-        width: 250px;
-        height: 200px;
-        background-image: url("/img/bulletin.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #question{
-        width: 250px;
-        height: 200px;
-        background-image: url("/img/question.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    
+}
+
+#poke{
+    display: block;
+    width: 250px;
+    height: 200px;
+    background-image: url("/img/poke.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#kakeibo{
+    display: block;
+    width: 250px;
+    height: 200px;
+    background-image: url("/img/kakeibo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bulletin{
+    width: 250px;
+    height: 200px;
+    background-image: url("/img/bulletin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#question{
+    width: 250px;
+    height: 200px;
+    background-image: url("/img/question.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#chat{
+    width: 250px;
+    height: 200px;
+    background-image: url("/img/chat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 //Contact
