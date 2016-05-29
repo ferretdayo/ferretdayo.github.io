@@ -11,18 +11,19 @@ html(lang='ja')
         nav
             ul.nav-list
                 li.nav-title: a(href="#") ミズゴロウのすみか
-                li.nav-content: a(href="#") CONTACT
-                li.nav-content: a(href="#") PRODUCT
-                li.nav-content: a(href="#") SKILLS
-                li.nav-content: a(href="#") ABOUT
+                li.nav-content: a(href="#contact") CONTACT
+                li.nav-content: a(href="#product") PRODUCT
+                li.nav-content: a(href="#skills") SKILLS
+                li.nav-content: a(href="#about") ABOUT
         article
-            div.parallax.parallax-img1
-                div.box
-                    h1 helloWorld!
-            div.about
-                div.box
-                    h2 About
-                    div#about
+            section
+                div.parallax.parallax-img1
+                    div.box
+                        h1 helloWorld!
+                div#about
+                    div.section-title
+                        h2 About
+                    div.container
                         div#about-img
                             h3.title ツルえもん㌠
                             img#mypic(src="/img/mypic.jpg", alt="プロフィール")
@@ -37,33 +38,36 @@ html(lang='ja')
                                 li カクテル
                                 li ボウリング(自己新245)
                                 li お菓子作り(稀)
-            div.parallax.parallax-img2
-                div.box
-                    h1 helloWorld!
-            div.content
-                div.box
-                    h2 Skills
-            div.parallax.parallax-img3
-                div.box
-                    h1 helloWorld!
-            div.content
-                div.box
-                    h2 Product
-                    div.product
-                        div.product-content
-                            div#poke
-                            div#kakeibo
-                            div#bulletin
-                            div#question
-                            div#chat
-                            
-            div.parallax.parallax-img4
-                div.box
-                    h1 helloWorld!
-            div.contact
-                div.box
-                    h2 Contact
-                    div.contact-content
+            
+            section
+                div.parallax.parallax-img2
+                    div.box
+                        h1 helloWorld!
+                div#skills
+                    div.section-title
+                        h2 Skills
+            
+            section
+                div.parallax.parallax-img3
+                    div.box
+                        h1 helloWorld!
+                div#product
+                    div.section-title
+                        h2 Product
+                    div.container#product-content
+                        div#poke
+                        div#kakeibo
+                        div#bulletin
+                        div#question
+                        div#chat             
+            section
+                div.parallax.parallax-img4
+                    div.box
+                        h1 helloWorld!
+                div#contact
+                    div.section-title
+                        h2 Contact
+                    div#contact-content
                         div.link
                             a.contact-link(href="https://twitter.com/terado_desu" target="_blank")
                                 img(src="/img/twitter_alt.svg")
