@@ -51,10 +51,6 @@ ul.nav-list {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#product {
-  height: 80vh;
-  padding: 12vh 0 8vh; }
-
 .img {
   margin: 30px; }
   .img .img-title {
@@ -103,16 +99,8 @@ ul.nav-list {
   background-size: cover;
   background-image: url("/img/commentviewer.png"); }
 
-#skills {
-  height: 80vh;
-  padding: 12vh 0 8vh; }
-
 .icon-size {
-  font-size: 100px; }
-
-#contact {
-  height: 80vh;
-  padding: 12vh 0 8vh; }
+  font-size: 70px; }
 
 #contact-content {
   margin: 40px; }
