@@ -7,17 +7,19 @@ html(lang='ja')
         title ふぇれっと
         link(href="css/normalize.css", rel="stylesheet")
         link(href="css/style.css", rel="stylesheet")
+        script(src="https://code.jquery.com/jquery-1.7.1.js")
+        script(src="./js/index.js")
     body
         nav
             ul.nav-list
-                li.nav-title: a(href="#") ミズゴロウのすみか
+                li.nav-title: a(href="#top") ミズゴロウのすみか
                 li.nav-content: a(href="#contact") CONTACT
                 li.nav-content: a(href="#product") PRODUCT
                 li.nav-content: a(href="#skills") SKILLS
                 li.nav-content: a(href="#about") ABOUT
         article
             section
-                div.parallax.parallax-img1
+                div.parallax.parallax-img1#top
                     div.box
                         h1 helloWorld!
                 div#about
@@ -57,18 +59,24 @@ html(lang='ja')
                     div#product-content
                         div.container
                             div.img
-                                div#kakeibo
-                                h2.img-title 家計簿
-                            div.img
                                 div#bulletin
                                 h2.img-title 簡易SNS
                             div.img
                                 div#question
                                 h2.img-title 出題&質問サイト
+                            div.img
+                                div#hackathon
+                                h2.img-title コメント流し(ハッカソン)
                         div.container
                             div.img
                                 div#chat
                                 h2.img-title チャット
+                            div.img
+                                div#playlistshare
+                                h2.img-title PlayListShare(開発中)
+                            div.img
+                                div#commentviewer
+                                h2.img-title コメビュ(開発中)
             section
                 div.parallax.parallax-img4
                     div.box

@@ -85,13 +85,6 @@ ul.nav-list {
     font-size: 15px;
     text-align: center; }
 
-#kakeibo {
-  width: 180px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("/img/kakeibo.png"); }
-
 #bulletin {
   width: 180px;
   height: 100px;
@@ -106,12 +99,33 @@ ul.nav-list {
   background-size: cover;
   background-image: url("/img/question.png"); }
 
+#hackathon {
+  width: 180px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/img/hack.jpg"); }
+
 #chat {
   width: 180px;
   height: 100px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("/img/chat.png"); }
+
+#playlistshare {
+  width: 180px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/img/playlistshare.png"); }
+
+#commentviewer {
+  width: 180px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/img/commentviewer.png"); }
 
 #contact {
   height: 80vh;

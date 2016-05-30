@@ -7,11 +7,13 @@
     <title>ふぇれっと</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.7.1.js"></script>
+    <script src="./js/index.js"></script>
   </head>
   <body>
     <nav>
       <ul class="nav-list">
-        <li class="nav-title"><a href="#">ミズゴロウのすみか</a></li>
+        <li class="nav-title"><a href="#top">ミズゴロウのすみか</a></li>
         <li class="nav-content"><a href="#contact">CONTACT</a></li>
         <li class="nav-content"><a href="#product">PRODUCT</a></li>
         <li class="nav-content"><a href="#skills">SKILLS</a></li>
@@ -20,7 +22,7 @@
     </nav>
     <article>
       <section>
-        <div class="parallax parallax-img1">
+        <div class="parallax parallax-img1" id="top">
           <div class="box">
             <h1>helloWorld!</h1>
           </div>
@@ -75,10 +77,6 @@
           <div id="product-content">
             <div class="container">
               <div class="img">
-                <div id="kakeibo"></div>
-                <h2 class="img-title">家計簿</h2>
-              </div>
-              <div class="img">
                 <div id="bulletin"></div>
                 <h2 class="img-title">簡易SNS</h2>
               </div>
@@ -86,11 +84,23 @@
                 <div id="question"></div>
                 <h2 class="img-title">出題&質問サイト</h2>
               </div>
+              <div class="img">
+                <div id="hackathon"></div>
+                <h2 class="img-title">コメント流し(ハッカソン)</h2>
+              </div>
             </div>
             <div class="container">
               <div class="img">
                 <div id="chat"></div>
                 <h2 class="img-title">チャット</h2>
+              </div>
+              <div class="img">
+                <div id="playlistshare"></div>
+                <h2 class="img-title">PlayListShare(開発中)</h2>
+              </div>
+              <div class="img">
+                <div id="commentviewer"></div>
+                <h2 class="img-title">コメビュ(開発中)</h2>
               </div>
             </div>
           </div>
