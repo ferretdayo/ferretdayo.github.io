@@ -86,43 +86,43 @@ ul.nav-list {
     text-align: center; }
 
 #bulletin {
-  width: 180px;
-  height: 100px;
+  width: 240px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("/img/bulletin.png"); }
 
 #question {
-  width: 180px;
-  height: 100px;
+  width: 240px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("/img/question.png"); }
 
 #hackathon {
-  width: 180px;
-  height: 100px;
+  width: 240px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("/img/hack.jpg"); }
 
 #chat {
-  width: 180px;
-  height: 100px;
+  width: 240px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("/img/chat.png"); }
 
 #playlistshare {
-  width: 180px;
-  height: 100px;
+  width: 240px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("/img/playlistshare.png"); }
 
 #commentviewer {
-  width: 180px;
-  height: 100px;
+  width: 240px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("/img/commentviewer.png"); }
