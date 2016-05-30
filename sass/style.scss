@@ -6,12 +6,6 @@ body{
     background-color: azure;
 }
 
-h1{
-	color: red;
-	&:hover{
-		color: royalblue;
-	}
-}
 .container{    
     //中にあるdivタグを中央寄せ
     display: flex;
@@ -68,16 +62,10 @@ ul.nav-list{
 
 //ABOUTのContents
 #about{
-    height: 100vh;
+    height: 80vh;
+    padding: 12vh 0 8vh;
 }
-#about-title{
-    text-align: center;
-    //subtitle
-    h2{
-        font-size: 35px;
-        color: darkorange;
-    }
-}
+
 //プロフィールの画像部分
 #about-img{
     margin: 0 40px;
@@ -107,56 +95,62 @@ ul.nav-list{
     background-size: cover;
 }
 
+#skills{
+    height: 80vh;
+    padding: 12vh 0 8vh;
+}
+
 //Product
 #product{
-    height: 100vh;
+    height: 80vh;
+    padding: 12vh 0 8vh;
 }
 
 #product-content{
     
 }
 
-#poke{
-    display: block;
-    width: 250px;
-    height: 200px;
-    background-image: url("/img/poke.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+//Productの画像とテキスト
+.img{
+    margin: 30px 5px 30px 5px;
+    .img-title{
+        font-size: 15px;
+        text-align: center;
+    }
 }
 #kakeibo{
-    display: block;
-    width: 250px;
-    height: 200px;
-    background-image: url("/img/kakeibo.png");
+    width: 180px;
+    height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("/img/kakeibo.png");
 }
 #bulletin{
-    width: 250px;
-    height: 200px;
-    background-image: url("/img/bulletin.png");
+    width: 180px;
+    height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("/img/bulletin.png");
 }
 #question{
-    width: 250px;
-    height: 200px;
-    background-image: url("/img/question.png");
+    width: 180px;
+    height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("/img/question.png");
 }
 #chat{
-    width: 250px;
-    height: 200px;
-    background-image: url("/img/chat.png");
+    width: 180px;
+    height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("/img/chat.png");
 }
 
 //Contact
 #contact{
-    height: 100vh;
+    height: 80vh;
+    padding: 12vh 0 8vh;
 }
 
 #contact-content{

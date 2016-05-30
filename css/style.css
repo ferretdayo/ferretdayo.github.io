@@ -5,11 +5,6 @@
 body {
   background-color: azure; }
 
-h1 {
-  color: red; }
-  h1:hover {
-    color: royalblue; }
-
 .container {
   display: flex;
   justify-content: center; }
@@ -51,13 +46,8 @@ ul.nav-list {
       padding: 8px 20px; }
 
 #about {
-  height: 100vh; }
-
-#about-title {
-  text-align: center; }
-  #about-title h2 {
-    font-size: 35px;
-    color: darkorange; }
+  height: 80vh;
+  padding: 12vh 0 8vh; }
 
 #about-img {
   margin: 0 40px; }
@@ -81,48 +71,51 @@ ul.nav-list {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#product {
-  height: 100vh; }
+#skills {
+  height: 80vh;
+  padding: 12vh 0 8vh; }
 
-#poke {
-  display: block;
-  width: 250px;
-  height: 200px;
-  background-image: url("/img/poke.png");
-  background-repeat: no-repeat;
-  background-size: cover; }
+#product {
+  height: 80vh;
+  padding: 12vh 0 8vh; }
+
+.img {
+  margin: 30px 5px 30px 5px; }
+  .img .img-title {
+    font-size: 15px;
+    text-align: center; }
 
 #kakeibo {
-  display: block;
-  width: 250px;
-  height: 200px;
-  background-image: url("/img/kakeibo.png");
+  width: 180px;
+  height: 100px;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-image: url("/img/kakeibo.png"); }
 
 #bulletin {
-  width: 250px;
-  height: 200px;
-  background-image: url("/img/bulletin.png");
+  width: 180px;
+  height: 100px;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-image: url("/img/bulletin.png"); }
 
 #question {
-  width: 250px;
-  height: 200px;
-  background-image: url("/img/question.png");
+  width: 180px;
+  height: 100px;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-image: url("/img/question.png"); }
 
 #chat {
-  width: 250px;
-  height: 200px;
-  background-image: url("/img/chat.png");
+  width: 180px;
+  height: 100px;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-image: url("/img/chat.png"); }
 
 #contact {
-  height: 100vh; }
+  height: 80vh;
+  padding: 12vh 0 8vh; }
 
 #contact-content {
   display: flex;
