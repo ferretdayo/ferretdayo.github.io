@@ -1,0 +1,58 @@
+//Product
+#product{
+}
+
+#product-content{
+    
+}
+
+//Productの画像とテキスト
+.img{
+    margin: 30px;
+    .img-title{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+#bulletin{
+    width: 240px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/bulletin.png");
+}
+#question{
+    width: 240px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/question.png");
+}
+#hackathon{
+    width: 240px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/hack.jpg");
+}
+#chat{
+    width: 240px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/chat.png");
+}
+#playlistshare{
+    width: 240px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/playlistshare.png");
+}
+#commentviewer{
+    width: 240px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/commentviewer.png");
+}

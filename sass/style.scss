@@ -1,3 +1,5 @@
+@import 'nav', 'about', 'product', 'skills', 'contact', 'parallax';
+
 *{
     font-family: Helvetica, "游ゴシック";
 }
@@ -12,6 +14,11 @@ body{
     justify-content: center;
 }
 
+.contents{
+    height: 80vh;
+    padding: 12vh 0 8vh;
+}
+
 .section-title{
     text-align: center;
     //subtitle
@@ -19,179 +26,6 @@ body{
         font-size: 35px;
         color: darkorange;
     }
-}
-//Navigation Bar
-nav{
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    top: 0;
-    position: fixed;
-}
-
-ul.nav-list{
-    overflow: hidden;
-    background-color: aquamarine; 
-    margin: 0;
-    li{
-        display: block;
-        a{
-            display: block;
-            text-decoration: none;
-            color: darkorange;
-            font-size: 16px;
-            &:hover{
-                background-color: aqua;
-            }
-        }
-    }
-    .nav-content{
-        float: right;
-        a{
-            padding: 12px 20px;
-        }
-    }
-    .nav-title{
-        float: left;
-        a{
-            padding: 8px 20px;
-        }
-    }
-}
-
-//ABOUTのContents
-#about{
-    height: 80vh;
-    padding: 12vh 0 8vh;
-}
-
-//プロフィールの画像部分
-#about-img{
-    margin: 0 30px;
-    img{
-        display: block;
-        margin: 0 auto;
-        border-radius: 100px;
-        height: 200px;
-        width: 200px;
-    }    
-    .title{
-        text-align: center;
-        font-size: 25px;
-    }
-}
-//プロフィールの内容
-#about-content{
-    margin: 0 30px;
-    .subtitle{
-        margin: 25px 0 0 30px;
-        font-size: 19px;
-    }
-}
-
-#mypic{
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#skills{
-    height: 80vh;
-    padding: 12vh 0 8vh;
-}
-
-//Product
-#product{
-    height: 80vh;
-    padding: 12vh 0 8vh;
-}
-
-#product-content{
-    
-}
-
-//Productの画像とテキスト
-.img{
-    margin: 30px;
-    .img-title{
-        font-size: 15px;
-        text-align: center;
-    }
-}
-#bulletin{
-    width: 240px;
-    height: 130px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("/img/bulletin.png");
-}
-#question{
-    width: 240px;
-    height: 130px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("/img/question.png");
-}
-#hackathon{
-    width: 240px;
-    height: 130px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("/img/hack.jpg");
-}
-#chat{
-    width: 240px;
-    height: 130px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("/img/chat.png");
-}
-#playlistshare{
-    width: 240px;
-    height: 130px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("/img/playlistshare.png");
-}
-#commentviewer{
-    width: 240px;
-    height: 130px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("/img/commentviewer.png");
-}
-
-//Contact
-#contact{
-    height: 80vh;
-    padding: 12vh 0 8vh;
-}
-
-#contact-content{
-    margin: 40px;
-}
-
-.contact-link{
-    margin: 0 30px;
-}
-
-.link{
-}
-
-.icon-size{
-    font-size: 100px;
-//    font-family: "devicons";
-//    &:before{
-//        content: \e653;
-//    }
-}
-
-.parallax{
-    height: 101vh;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 .box{
@@ -205,19 +39,6 @@ ul.nav-list{
         font-weight: bold;
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
-}
-
-.parallax-img1{
-    background-image: url(/img/mizu1.jpg);
-}
-.parallax-img2{
-    background-image: url(/img/mizu2.jpg);
-}
-.parallax-img3{
-    background-image: url(/img/mizu3.jpg);
-}
-.parallax-img4{
-    background-image: url(/img/mizu4.jpg);
 }
 
 @media screen and (max-width: 960px){

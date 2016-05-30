@@ -1,0 +1,32 @@
+//ABOUTのContents
+#about{
+}
+
+//プロフィールの画像部分
+#about-img{
+    margin: 0 30px;
+    img{
+        display: block;
+        margin: 0 auto;
+        border-radius: 100px;
+        height: 200px;
+        width: 200px;
+    }    
+    .title{
+        text-align: center;
+        font-size: 25px;
+    }
+}
+//プロフィールの内容
+#about-content{
+    margin: 0 30px;
+    .subtitle{
+        margin: 25px 0 0 30px;
+        font-size: 19px;
+    }
+}
+
+#mypic{
+    background-repeat: no-repeat;
+    background-size: cover;
+}

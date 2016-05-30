@@ -1,20 +1,4 @@
 @charset "UTF-8";
-* {
-  font-family: Helvetica, "游ゴシック"; }
-
-body {
-  background-color: azure; }
-
-.container {
-  display: flex;
-  justify-content: center; }
-
-.section-title {
-  text-align: center; }
-  .section-title h2 {
-    font-size: 35px;
-    color: darkorange; }
-
 nav {
   display: block;
   margin: 0;
@@ -45,10 +29,6 @@ ul.nav-list {
     ul.nav-list .nav-title a {
       padding: 8px 20px; }
 
-#about {
-  height: 80vh;
-  padding: 12vh 0 8vh; }
-
 #about-img {
   margin: 0 30px; }
   #about-img img {
@@ -70,10 +50,6 @@ ul.nav-list {
 #mypic {
   background-repeat: no-repeat;
   background-size: cover; }
-
-#skills {
-  height: 80vh;
-  padding: 12vh 0 8vh; }
 
 #product {
   height: 80vh;
@@ -127,6 +103,13 @@ ul.nav-list {
   background-size: cover;
   background-image: url("/img/commentviewer.png"); }
 
+#skills {
+  height: 80vh;
+  padding: 12vh 0 8vh; }
+
+.icon-size {
+  font-size: 100px; }
+
 #contact {
   height: 80vh;
   padding: 12vh 0 8vh; }
@@ -137,26 +120,12 @@ ul.nav-list {
 .contact-link {
   margin: 0 30px; }
 
-.icon-size {
-  font-size: 100px; }
-
 .parallax {
   height: 101vh;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
-
-.box {
-  max-width: 30px 0; }
-  .box h1 {
-    margin: 0;
-    line-height: 100vh;
-    font-size: 60px;
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
 
 .parallax-img1 {
   background-image: url(/img/mizu1.jpg); }
@@ -169,6 +138,37 @@ ul.nav-list {
 
 .parallax-img4 {
   background-image: url(/img/mizu4.jpg); }
+
+* {
+  font-family: Helvetica, "游ゴシック"; }
+
+body {
+  background-color: azure; }
+
+.container {
+  display: flex;
+  justify-content: center; }
+
+.contents {
+  height: 80vh;
+  padding: 12vh 0 8vh; }
+
+.section-title {
+  text-align: center; }
+  .section-title h2 {
+    font-size: 35px;
+    color: darkorange; }
+
+.box {
+  max-width: 30px 0; }
+  .box h1 {
+    margin: 0;
+    line-height: 100vh;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
 
 @media screen and (max-width: 960px) {
   .box {
