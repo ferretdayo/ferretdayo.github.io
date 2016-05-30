@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ふぇれっと</title>
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/devicons.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.7.1.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/wow.js"></script>
   </head>
   <body>
     <nav>
@@ -27,7 +30,7 @@
             <h1>ミズゴロウのすみか!</h1>
           </div>
         </div>
-        <div id="about">
+        <div class="wow bounceInRight" id="about" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="section-title">
             <h2>About</h2>
           </div>
@@ -60,7 +63,7 @@
         </div>
         <div id="skills">
           <div class="section-title">
-            <h2>Skills</h2>
+            <h2>Skills</h2><span class="devicons devicons-php icon-size"></span><span class="devicons devicons-laravel icon-size"></span><span class="devicons devicons-mysql icon-size"></span><span class="devicons devicons-angular icon-size"></span><span class="devicons devicons-javascript icon-size"></span><span class="devicons devicons-nodejs icon-size"></span><span class="devicons devicons-html5 icon-size"></span><span class="devicons devicons-css3 icon-size"></span><span class="devicons devicons-android icon-size"></span>
           </div>
         </div>
       </section>
@@ -112,11 +115,11 @@
             <h1>平等院鳳凰堂 with ミズゴロウ</h1>
           </div>
         </div>
-        <div id="contact">
+        <div class="wow rollIn" id="contact" data-wow-duration="1s" data-wow-delay="0.3s">
           <div class="section-title">
             <h2>Contact</h2>
           </div>
-          <div id="contact-content">
+          <div class="container" id="contact-content">
             <div class="link"><a class="contact-link" href="https://twitter.com/terado_desu" target="_blank"><img src="/img/twitter.png" style="width:120px;height:120px"></a></div>
             <div class="link"><a class="contact-link" href="https://github.com/ferretdayo" target="_blank"><img src="/img/github.png"></a></div>
             <div class="link"><a class="contact-link" href="http://qiita.com/ferretdayo" target="_blank"><img src="/img/qiita.png" style="width:120px;height:120px"></a></div>
@@ -126,6 +129,7 @@
       </section>
     </article>
     <div id="footer"></div>
+    <script>new WOW().init();</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script scr="js/index.js"></script>
   </body>

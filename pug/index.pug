@@ -6,9 +6,12 @@ html(lang='ja')
         meta(name="viewport", content="width=device-width, initial-scale=1")
         title ふぇれっと
         link(href="css/normalize.css", rel="stylesheet")
+        link(href="css/devicons.css", rel="stylesheet")
+        link(href="css/animate.css", rel="stylesheet")
         link(href="css/style.css", rel="stylesheet")
         script(src="https://code.jquery.com/jquery-1.7.1.js")
         script(src="./js/index.js")
+        script(src="./js/wow.js")
     body
         nav
             ul.nav-list
@@ -22,7 +25,7 @@ html(lang='ja')
                 div.parallax.parallax-img1#top
                     div.box
                         h1 ミズゴロウのすみか!
-                div#about
+                div#about.wow.bounceInRight(data-wow-duration="1s" data-wow-delay="0.3s")
                     div.section-title
                         h2 About
                     div.container
@@ -48,7 +51,15 @@ html(lang='ja')
                 div#skills
                     div.section-title
                         h2 Skills
-            
+                        span.devicons.devicons-php.icon-size
+                        span.devicons.devicons-laravel.icon-size
+                        span.devicons.devicons-mysql.icon-size
+                        span.devicons.devicons-angular.icon-size
+                        span.devicons.devicons-javascript.icon-size
+                        span.devicons.devicons-nodejs.icon-size
+                        span.devicons.devicons-html5.icon-size
+                        span.devicons.devicons-css3.icon-size
+                        span.devicons.devicons-android.icon-size
             section
                 div.parallax.parallax-img3
                     div.box
@@ -81,10 +92,10 @@ html(lang='ja')
                 div.parallax.parallax-img4
                     div.box
                         h1 平等院鳳凰堂 with ミズゴロウ
-                div#contact
+                div#contact.wow.rollIn(data-wow-duration="1s" data-wow-delay="0.3s")
                     div.section-title
                         h2 Contact
-                    div#contact-content
+                    div#contact-content.container
                         div.link
                             a.contact-link(href="https://twitter.com/terado_desu" target="_blank")
                                 img(src="/img/twitter.png" style="width:120px;height:120px")
@@ -98,5 +109,6 @@ html(lang='ja')
                             a.contact-link(href="http://www.amazon.co.jp/registry/wishlist/17N6CFZAF1XHH/ref=cm_sw_r_tw_ws_7PbtxbQ6R1JD3" target="_blank")
                                 img(src="/img/amazon.png")
         div#footer
+        script new WOW().init();
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
         script(scr="js/index.js")

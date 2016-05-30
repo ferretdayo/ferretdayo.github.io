@@ -168,8 +168,7 @@ ul.nav-list{
 }
 
 #contact-content{
-    display: flex;
-    justify-content: center;
+    margin: 40px;
 }
 
 .contact-link{
@@ -179,8 +178,16 @@ ul.nav-list{
 .link{
 }
 
+.icon-size{
+    font-size: 100px;
+//    font-family: "devicons";
+//    &:before{
+//        content: \e653;
+//    }
+}
+
 .parallax{
-    height: 100vh;
+    height: 101vh;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;

@@ -132,14 +132,16 @@ ul.nav-list {
   padding: 12vh 0 8vh; }
 
 #contact-content {
-  display: flex;
-  justify-content: center; }
+  margin: 40px; }
 
 .contact-link {
   margin: 0 30px; }
 
+.icon-size {
+  font-size: 100px; }
+
 .parallax {
-  height: 100vh;
+  height: 101vh;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
