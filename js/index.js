@@ -15,3 +15,10 @@ $(document).ready(function(){
         }
     });
 });
+$(document).ready(function(){
+    $('.nav-anime').mouseover(function(e){
+        e.preventDefault();
+        console.log("aaa");
+        $('.nav-anime').addClass('animated');
+    });
+});
