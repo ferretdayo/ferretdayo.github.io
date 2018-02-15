@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "https://ferretdayo.github.io",
   "display": "standalone",
   "background_color": "#58D3F7",
   "theme_color": "#58D3F7"
